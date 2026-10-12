@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_void_resonator",
+	"name": "Void Resonator",
+	"requirements": {
+		"milestones": [],
+		"skill": 27
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_void_resonator"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

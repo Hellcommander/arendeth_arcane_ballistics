@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_twin_emplacement",
+	"name": "Twin Emplacement",
+	"requirements": {
+		"milestones": [],
+		"skill": 12
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_twin_emplacement"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,15 @@
+{
+    "id": "arendeth_arcane_ballistics_workshop",
+    "name": "Arcane Ballistics Workshop",
+    "image": 41,
+    "max": 1,
+    "occupation_image": 74,
+    "occupation": "Arcane_Engineer",
+    "race": "-1",
+    "tier": 2,
+    "workers": [1, 4],
+    "allow_player": true,
+    "min_area": 24,
+    "group": "military",
+    "type": "military"
+}

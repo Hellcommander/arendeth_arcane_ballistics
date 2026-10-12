@@ -1,0 +1,35 @@
+{
+	"id": "arendeth_arcane_ballistics_astral_flame_burst",
+	"name": "Arc Flare Burst",
+	"description": "Arc Flare Burst (trap ability).",
+	"target": "actor",
+	"range": 2,
+	"effects": {
+		"damage": [
+			2,
+			4
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 0.3,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"stacker_count": 6
+	},
+	"animation": "34",
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"cast_time": 0.2,
+	"cooldown": 30.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 0
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

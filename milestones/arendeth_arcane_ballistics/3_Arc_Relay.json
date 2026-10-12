@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arc_relay",
+	"name": "Arc Relay",
+	"requirements": {
+		"milestones": [],
+		"skill": 3
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_arc_relay"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

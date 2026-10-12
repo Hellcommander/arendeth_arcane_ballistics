@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_scatter_mines",
+	"name": "Scatter Mines",
+	"requirements": {
+		"milestones": [],
+		"skill": 38
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_scatter_mines"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

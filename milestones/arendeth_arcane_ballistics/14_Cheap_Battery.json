@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_cheap_battery",
+	"name": "Cheap Battery",
+	"requirements": {
+		"milestones": [],
+		"skill": 14
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_cheap_battery"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

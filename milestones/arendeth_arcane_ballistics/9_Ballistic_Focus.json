@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_ballistic_focus",
+	"name": "Ballistic Focus",
+	"requirements": {
+		"milestones": [],
+		"skill": 9
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_ballistic_focus"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

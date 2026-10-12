@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_spore_mortar",
+	"name": "Summon Tesla Mortar",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_summon_spore_mortar"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

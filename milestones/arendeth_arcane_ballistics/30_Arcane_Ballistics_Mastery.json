@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_mastery",
+	"name": "Arcane Ballistics Mastery",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_mastery"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

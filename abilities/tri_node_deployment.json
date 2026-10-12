@@ -1,0 +1,31 @@
+{
+	"id": "arendeth_arcane_ballistics_tri_node_deployment",
+	"name": "Tri-Node Deployment",
+	"description": "Deploy three Coil Turrets in a triangle. Grants 3 Turret Power.",
+	"target": "aoe_tile",
+	"range": 6,
+	"effects": {
+		"summon_count": 3,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"stacker_count": 3
+	},
+	"effects_keys": {
+		"summon": "arendeth_arcane_ballistics_turret_arcane",
+		"stacker": "arendeth_arcane_ballistics_turret_power"
+	},
+	"animation": "160",
+	"cost": {
+		"health": 0,
+		"stamina": 16
+	},
+	"cast_time": 1.2,
+	"cooldown": 24.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 2
+	},
+	"duration": 25.0,
+	"image": 6
+}

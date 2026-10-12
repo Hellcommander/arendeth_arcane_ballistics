@@ -1,0 +1,38 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_rail_shot",
+	"name": "Electric Rail Shot",
+	"description": "A massive piercing rail shot. Scales heavily with Magic Power. Builds Shock.",
+	"target": "actor",
+	"range": 12,
+	"effects": {
+		"damage": [
+			14,
+			22
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 1.0,
+		"magic_power_damage": 1.8,
+		"pierce": 1,
+		"knockback": 1,
+		"stacker_count": 8,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.15
+	},
+	"animation": "core_2_Spectral_Chain",
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"cast_time": 1.2,
+	"cooldown": 16.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

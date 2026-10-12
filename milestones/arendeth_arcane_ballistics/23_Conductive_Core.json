@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_conductive_core",
+	"name": "Conductive Core",
+	"requirements": {
+		"milestones": [],
+		"skill": 23
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_conductive_core"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

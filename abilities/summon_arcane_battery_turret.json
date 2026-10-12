@@ -1,0 +1,30 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_arcane_battery_turret",
+	"name": "Summon Electric Battery Turret",
+	"description": "Deploy a generator turret that periodically taunts, pulls and shocks enemies. Grants Turret Power.",
+	"target": "aoe_tile",
+	"range": 6,
+	"effects": {
+		"summon_count": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_arcane_ballistics_turret_arcane_battery",
+		"stacker": "arendeth_arcane_ballistics_turret_power"
+	},
+	"animation": "160",
+	"cost": {
+		"health": 0,
+		"stamina": 10
+	},
+	"cast_time": 1.0,
+	"cooldown": 14.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 2
+	},
+	"duration": 25.0,
+	"image": 11
+}

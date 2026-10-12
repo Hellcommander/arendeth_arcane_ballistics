@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_turret_feedback",
+	"name": "Turret Feedback",
+	"requirements": {
+		"milestones": [],
+		"skill": 15
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_turret_feedback"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

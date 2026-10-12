@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_static_discharge",
+	"name": "Static Discharge",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_static_discharge"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

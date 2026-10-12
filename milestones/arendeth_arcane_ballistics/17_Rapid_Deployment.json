@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_rapid_deployment",
+	"name": "Rapid Deployment",
+	"requirements": {
+		"milestones": [],
+		"skill": 17
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_rapid_deployment"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

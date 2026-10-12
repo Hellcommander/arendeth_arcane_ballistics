@@ -1,0 +1,469 @@
+[
+	{
+		"id": "arendeth_arcane_ballistics_piercing_rounds",
+		"name": "Piercing Rounds",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "pierce",
+				"value": 1
+			},
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.03
+			}
+		],
+		"image": 0,
+		"description": "Shots punch through the first target and hit the line behind it."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arc_relay",
+		"name": "Arc Relay",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "chain",
+				"value": 1
+			}
+		],
+		"image": 1,
+		"description": "The shot chains to one additional enemy."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_overload_charge",
+		"name": "Overload Charge",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stun",
+				"value": 1
+			},
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.03
+			}
+		],
+		"image": 2,
+		"description": "A surge of electricity: adds a brief stun and a slight damage boost."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_conductive_rounds",
+		"name": "Conductive Rounds",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "vulnerable",
+				"value": 2
+			}
+		],
+		"image": 3,
+		"description": "The target becomes a lightning rod: vulnerable 2."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_target_painter",
+		"name": "Target Painter",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "vulnerable",
+				"value": 1
+			}
+		],
+		"image": 4,
+		"description": "Marks the target: vulnerable 1 and a slight damage boost."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_stagger_shot",
+		"name": "Stagger Shot",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stun",
+				"value": 1
+			},
+			{
+				"effect": "knockback",
+				"value": 1
+			}
+		],
+		"image": 5,
+		"description": "A brief stun and 1 tile of knockback."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_overcharged_coils",
+		"name": "Overcharged Coils",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.08
+			}
+		],
+		"cast_time": 0.1,
+		"image": 6,
+		"description": "Hits harder, but charges slightly slower."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_long_barrel",
+		"name": "Long Barrel",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.02
+			}
+		],
+		"range": 2,
+		"image": 7,
+		"description": "+2 range and a slight damage boost."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_twin_emplacement",
+		"name": "Twin Emplacement",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "summon_count",
+				"value": 1
+			},
+			{
+				"effect": "stacker_count",
+				"value": 1
+			}
+		],
+		"cost_stamina": 3,
+		"image": 8,
+		"description": "Deploy one extra turret per cast (and gain one extra Turret Power stack). Costs more stamina."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_wide_footing",
+		"name": "Wide Footing",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "aoe_range",
+				"value": 1
+			}
+		],
+		"range": 1,
+		"image": 9,
+		"description": "+1 area and +1 range for deployment."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_cheap_battery",
+		"name": "Cheap Battery",
+		"type": "utility",
+		"cost_stamina": -1,
+		"cooldown": -1,
+		"image": 10,
+		"description": "-1 stamina and -1 cooldown."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_turret_feedback",
+		"name": "Turret Feedback",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 2,
+				"secondary_value": "arendeth_arcane_ballistics_turret_power"
+			}
+		],
+		"image": 12,
+		"description": "Your turrets feed the shot: +2 damage per Turret Power stack."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_reinforced_mounts",
+		"name": "Reinforced Mounts",
+		"type": "utility",
+		"duration": 10,
+		"cost_stamina": 2,
+		"image": 13,
+		"description": "Turrets stay deployed 10 turns longer. Costs more stamina."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_battery_network",
+		"name": "Battery Network",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "magic_power_per_entity",
+				"value": "arendeth_arcane_ballistics_turret_arcane",
+				"secondary_value": 10
+			}
+		],
+		"image": 14,
+		"description": "+1 damage for every Coil Turret within 10 tiles."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arcane_conversion",
+		"name": "Arcane Conversion",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "weapon_damage_to_magic",
+				"value": 1
+			}
+		],
+		"image": 15,
+		"description": "Your bow's weapon damage is converted into magic damage."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_quick_draw",
+		"name": "Quick Draw",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.03
+			}
+		],
+		"cast_time": -0.1,
+		"image": 11,
+		"description": "Faster to loose, slightly stronger."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_trap_matrix",
+		"name": "Trap Matrix",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 3,
+				"secondary_value": "arendeth_arcane_ballistics_turret_power"
+			}
+		],
+		"image": 16,
+		"description": "Trap synergy: +3 damage per Turret Power stack. Socket on trap abilities."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_conductive_core",
+		"name": "Conductive Core",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "electricity"
+			},
+			{
+				"effect": "stacker",
+				"value": "arendeth_arcane_ballistics_shock",
+				"secondary_value": 2
+			},
+			{
+				"effect": "chain",
+				"value": 1
+			}
+		],
+		"image": 17,
+		"description": "Default augment. Electricity damage, +2 extra Shock stacks and one chain."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_pyro_capacitor",
+		"name": "Pyro Capacitor",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "fire"
+			},
+			{
+				"effect": "burn",
+				"value": 2
+			},
+			{
+				"effect": "increase_effect",
+				"value": "burn",
+				"secondary_value": 0.15
+			}
+		],
+		"image": 18,
+		"description": "Converts damage to fire, adds 2 burn and strengthens burn by 15%."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_cryo_inductor",
+		"name": "Cryo Inductor",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "frost"
+			},
+			{
+				"effect": "frostbite",
+				"value": 1
+			},
+			{
+				"effect": "stacker",
+				"value": "core_2_freeze",
+				"secondary_value": 1
+			}
+		],
+		"image": 19,
+		"description": "Converts damage to frost, applies frostbite and 1 Freeze stack."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_void_resonator",
+		"name": "Void Resonator",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "death"
+			},
+			{
+				"effect": "burn_stamina",
+				"value": 2
+			},
+			{
+				"effect": "vulnerable",
+				"value": 1
+			}
+		],
+		"image": 20,
+		"description": "Converts damage to death (void), drains target stamina and adds vulnerable 1."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_astral_lens",
+		"name": "Astral Lens",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "holy"
+			},
+			{
+				"effect": "burn",
+				"value": 2
+			}
+		],
+		"range": 2,
+		"image": 21,
+		"description": "Converts damage to holy (astral), adds 2 burn and +2 range."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_toxic_injector",
+		"name": "Toxic Injector",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "poison"
+			},
+			{
+				"effect": "poison_effect",
+				"value": 3
+			}
+		],
+		"image": 22,
+		"description": "Converts damage to poison and adds 3 poison."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_kinetic_amplifier",
+		"name": "Kinetic Amplifier",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_type",
+				"value": "physical"
+			},
+			{
+				"effect": "knockback",
+				"value": 1
+			},
+			{
+				"effect": "knockback_damage_percent",
+				"value": 0.25
+			}
+		],
+		"image": 23,
+		"description": "Converts damage to physical, adds 1 knockback and +25% collision damage."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_insulated_casing",
+		"name": "Insulated Casing",
+		"type": "defensive",
+		"bonuses": [
+			{
+				"effect": "resistance",
+				"value": 4,
+				"secondary_value": "electricity"
+			}
+		],
+		"image": 24,
+		"description": "Grant 4 electricity resistance on the socketed ability."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_grounding_brand",
+		"name": "Grounding Brand",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "resistance_percent",
+				"value": -0.3,
+				"secondary_value": "electricity"
+			}
+		],
+		"duration": 6,
+		"image": 25,
+		"description": "Reduce the target's electricity resistance by 30% for 6 extra turns."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_charge_conversion",
+		"name": "Charge Conversion",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "turn_damage_to_stacks",
+				"value": "arendeth_arcane_ballistics_shock",
+				"secondary_value": 0.5
+			}
+		],
+		"image": 26,
+		"description": "Turn half the hit into Shock stacks."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_shock_exposure",
+		"name": "Shock Exposure",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "vulnerable",
+				"value": 1
+			}
+		],
+		"image": 27,
+		"description": "Apply vulnerable 1 to the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arc_discharge",
+		"name": "Arc Discharge",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "knockback",
+				"value": 1
+			}
+		],
+		"image": 28,
+		"description": "Knock the target back 1 tile."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_scatter_mines",
+		"name": "Scatter Mines",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "summon",
+				"value": "arendeth_arcane_ballistics_trap_arcane_mine"
+			},
+			{
+				"effect": "summon_count",
+				"value": 2
+			}
+		],
+		"cost_stamina": 3,
+		"image": 29,
+		"description": "Leave 2 Electric Mines at the impact."
+	}
+]

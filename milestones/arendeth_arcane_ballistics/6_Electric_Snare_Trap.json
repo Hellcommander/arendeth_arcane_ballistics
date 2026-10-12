@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_glyph_snare_trap",
+	"name": "Electric Snare Trap",
+	"requirements": {
+		"milestones": [],
+		"skill": 6
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_glyph_snare_trap"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

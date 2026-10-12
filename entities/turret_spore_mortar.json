@@ -1,0 +1,132 @@
+{
+	"ability_user": [
+		"arendeth_arcane_ballistics_spore_mortar_shell"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 50,
+		"fire": 0,
+		"frost": 0,
+		"holy": 0,
+		"parry": 0,
+		"physical": 0,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"light_source",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"temporary"
+	],
+	"description": "Tesla Mortar: a stationary arcane emplacement. It cannot move; it fires on enemies in sight and feeds its owner Turret Power.",
+	"fighter": {
+		"attackNames": [
+			"Fire"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					120,
+					200,
+					90
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 70,
+	"id": "arendeth_arcane_ballistics_turret_spore_mortar",
+	"light_source": {
+		"finish": -1,
+		"lit_image": -1,
+		"range": 3
+	},
+	"minimap_pixel": [
+		120,
+		200,
+		90
+	],
+	"name": "Tesla Mortar",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": true
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 2.0
+	},
+	"statistics": {
+		"dexterity": [
+			10,
+			10
+		],
+		"endurance": [
+			20,
+			20
+		],
+		"health_regen": 0.0,
+		"health_regen_tick": 10.0,
+		"hearing": 15,
+		"intelligence": [
+			20,
+			20
+		],
+		"magic_power": 12,
+		"sneaking": 0,
+		"strength": [
+			10,
+			10
+		],
+		"willpower": [
+			20,
+			20
+		]
+	},
+	"tags": [
+		"3",
+		"Arcane_Turret"
+	],
+	"corpse": [],
+	"temporary": 25,
+	"experience_gainer": {
+		"exp": 0,
+		"level": 15
+	},
+	"skills": {
+		"milestones": [],
+		"skills": [
+			"arendeth_arcane_ballistics"
+		]
+	}
+}

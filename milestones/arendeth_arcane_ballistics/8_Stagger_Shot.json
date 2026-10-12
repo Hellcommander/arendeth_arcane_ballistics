@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_stagger_shot",
+	"name": "Stagger Shot",
+	"requirements": {
+		"milestones": [],
+		"skill": 8
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_stagger_shot"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

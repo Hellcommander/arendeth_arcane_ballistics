@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_insulated_casing",
+	"name": "Insulated Casing",
+	"requirements": {
+		"milestones": [],
+		"skill": 32
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_insulated_casing"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

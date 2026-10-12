@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_mag_charged_shot",
+	"name": "Mag-Charged Shot",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_mag_charged_shot"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

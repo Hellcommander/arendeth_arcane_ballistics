@@ -1,0 +1,33 @@
+{
+	"id": "arendeth_arcane_ballistics_turret_bolt",
+	"name": "Coil Bolt",
+	"description": "Coil Bolt (turret ability).",
+	"target": "actor",
+	"range": 10,
+	"effects": {
+		"damage": [
+			4,
+			7
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 0.8,
+		"stacker_count": 1
+	},
+	"animation": "core_2_Spectral_Chain",
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"cast_time": 0.5,
+	"cooldown": 2.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 0
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

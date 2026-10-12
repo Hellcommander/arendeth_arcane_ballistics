@@ -1,0 +1,29 @@
+{
+	"id": "arendeth_arcane_ballistics_glyph_snare_trap",
+	"name": "Electric Snare Trap",
+	"description": "Lay a conductive snare that roots the first enemy to come near and builds Shock.",
+	"target": "aoe_tile",
+	"range": 7,
+	"effects": {
+		"summon_count": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_arcane_ballistics_trap_glyph_snare"
+	},
+	"animation": "34",
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"cast_time": 0.8,
+	"cooldown": 8.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"duration": 40.0,
+	"image": 7
+}

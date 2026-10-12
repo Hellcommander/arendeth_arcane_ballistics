@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_hardened_chassis",
+	"name": "Hardened Chassis",
+	"requirements": {
+		"milestones": [],
+		"skill": 13
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_hardened_chassis"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

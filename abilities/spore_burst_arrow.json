@@ -1,0 +1,38 @@
+{
+	"id": "arendeth_arcane_ballistics_spore_burst_arrow",
+	"name": "Storm Burst Arrow",
+	"description": "The arrow bursts into a crackling electric field on impact. Builds Shock.",
+	"target": "aoe_tile",
+	"range": 9,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 0.5,
+		"magic_power_damage": 0.7,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"stacker_count": 4,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"animation": "core_2_Spectral_Chain",
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"cast_time": 1.0,
+	"cooldown": 8.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"duration": 0.0,
+	"image": 7,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

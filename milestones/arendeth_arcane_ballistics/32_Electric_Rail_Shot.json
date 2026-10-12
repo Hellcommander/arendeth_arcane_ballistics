@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_rail_shot",
+	"name": "Electric Rail Shot",
+	"requirements": {
+		"milestones": [],
+		"skill": 32
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_arcane_rail_shot"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,57 @@
+[
+	{
+		"id": "arendeth_arcane_ballistics_turret_power",
+		"name": "Turret Power",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "magic_power",
+				"value": 2
+			}
+		],
+		"max_stacks": 8,
+		"apply_caster": true,
+		"duration": 30,
+		"description": "Each deployed turret feeds you power. +2 Magic Power per stack, up to 8. Lasts 30 turns if not refreshed."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_overclock",
+		"name": "Overclock",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "attack_speed",
+				"value": -0.02
+			},
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.02
+			}
+		],
+		"max_stacks": 5,
+		"apply_caster": true,
+		"duration": 8,
+		"description": "Over-driven firing rhythm. You attack quicker by 0.02 turn and deal +2% damage per stack, up to 5. Lasts 8 turns."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_shock",
+		"name": "Shock",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "movement_speed",
+				"value": 0.025
+			},
+			{
+				"effect": "willpower",
+				"value": -1
+			}
+		],
+		"max_stacks": 10,
+		"on_max_stacks_cast": "core_2_Overload",
+		"max_stacks_cast_unlock": false,
+		"apply_caster": false,
+		"duration": 5,
+		"description": "Residual charge slows movement by 0.025 turn and reduces willpower by 1 per stack, up to 10. At max stacks it triggers Overload (electrical damage and stun in a small area). Lasts 5 turns if not refreshed."
+	}
+]

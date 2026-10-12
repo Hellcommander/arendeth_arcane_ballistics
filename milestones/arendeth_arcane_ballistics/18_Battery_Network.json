@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_battery_network",
+	"name": "Battery Network",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_battery_network"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

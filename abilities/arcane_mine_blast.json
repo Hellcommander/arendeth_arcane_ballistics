@@ -1,0 +1,36 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_mine_blast",
+	"name": "Electric Mine Blast",
+	"description": "Electric Mine Blast (trap ability).",
+	"target": "actor",
+	"range": 2,
+	"effects": {
+		"damage": [
+			8,
+			12
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 0.5,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"knockback": 1,
+		"stacker_count": 5
+	},
+	"animation": "core_2_Blizzard_single_impact",
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"cast_time": 0.2,
+	"cooldown": 30.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 0
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

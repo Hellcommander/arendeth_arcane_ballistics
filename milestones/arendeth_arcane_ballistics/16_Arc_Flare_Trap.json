@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_astral_flame_trap",
+	"name": "Arc Flare Trap",
+	"requirements": {
+		"milestones": [],
+		"skill": 16
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_astral_flame_trap"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

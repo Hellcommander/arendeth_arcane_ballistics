@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_astral_lens",
+	"name": "Astral Lens",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_astral_lens"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

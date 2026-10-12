@@ -1,0 +1,36 @@
+{
+	"id": "arendeth_arcane_ballistics_pulse_turret_pulse",
+	"name": "Shock Pulse",
+	"description": "Shock Pulse (turret ability).",
+	"target": "actor",
+	"range": 5,
+	"effects": {
+		"damage": [
+			4,
+			7
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 0.7,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"knockback": 1,
+		"stacker_count": 3
+	},
+	"animation": "34",
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"cast_time": 0.5,
+	"cooldown": 3.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 0
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

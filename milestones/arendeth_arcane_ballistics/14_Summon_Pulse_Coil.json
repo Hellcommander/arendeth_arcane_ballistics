@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_pulse_turret",
+	"name": "Summon Pulse Coil",
+	"requirements": {
+		"milestones": [],
+		"skill": 14
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_summon_pulse_turret"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_void_shot",
+	"name": "Static Shot",
+	"requirements": {
+		"milestones": [],
+		"skill": 12
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_void_shot"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

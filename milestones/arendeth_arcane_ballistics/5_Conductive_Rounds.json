@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_conductive_rounds",
+	"name": "Conductive Rounds",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_conductive_rounds"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

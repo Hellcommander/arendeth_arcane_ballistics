@@ -1,0 +1,13 @@
+{
+	"author": "Arendeth",
+	"description": "Arcane Ballistics: an electric bow-caster discipline. Charged arrows, coil turrets and conductive traps all deal electricity damage and build Shock. Every turret you deploy grants Turret Power (+Magic Power); battery turrets taunt and pull enemies into your traps.",
+	"game_required": "0.10.0",
+	"icon": "icon.png",
+	"mods_required": [
+		"core_2"
+	],
+	"mods": [],
+	"name": "Arcane Ballistics",
+	"version": "1.0.1",
+	"thumbnail": "thumbnail.png"
+}

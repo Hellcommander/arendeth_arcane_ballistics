@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_conversion",
+	"name": "Arcane Conversion",
+	"requirements": {
+		"milestones": [],
+		"skill": 19
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_arcane_conversion"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

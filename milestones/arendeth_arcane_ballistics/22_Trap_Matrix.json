@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_trap_matrix",
+	"name": "Trap Matrix",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_trap_matrix"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

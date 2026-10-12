@@ -1,0 +1,27 @@
+{
+	"id": "arendeth_arcane_ballistics_turret_overclock",
+	"name": "Turret Overclock",
+	"description": "Overdrive your rig: gain Overclock stacks (faster attacks, more damage).",
+	"target": "self",
+	"range": 0,
+	"effects": {
+		"stacker_count": 2
+	},
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_overclock"
+	},
+	"animation": "160",
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"cast_time": 0.3,
+	"cooldown": 12.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 2
+	},
+	"duration": 0.0,
+	"image": 8
+}

@@ -1,0 +1,37 @@
+{
+	"id": "arendeth_arcane_ballistics_singularity_collapse",
+	"name": "Electric Singularity Collapse",
+	"description": "Electric Singularity Collapse (trap ability).",
+	"target": "actor",
+	"range": 3,
+	"effects": {
+		"damage": [
+			20,
+			30
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 1.0,
+		"pull_target": 3,
+		"aoe_range": 3,
+		"aoe_shape": 1,
+		"vulnerable": 1,
+		"stacker_count": 10
+	},
+	"animation": "core_2_Blizzard_single_impact",
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"cast_time": 0.2,
+	"cooldown": 40.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 0
+	},
+	"duration": 0.0,
+	"image": 9,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

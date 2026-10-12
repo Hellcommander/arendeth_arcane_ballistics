@@ -1,0 +1,31 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_astral_cannon",
+	"name": "Summon Storm Cannon",
+	"description": "Ultimate: deploy a heavy storm cannon with devastating electric shells. Grants 2 Turret Power.",
+	"target": "aoe_tile",
+	"range": 6,
+	"effects": {
+		"summon_count": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"stacker_count": 2
+	},
+	"effects_keys": {
+		"summon": "arendeth_arcane_ballistics_turret_astral_cannon",
+		"stacker": "arendeth_arcane_ballistics_turret_power"
+	},
+	"animation": "160",
+	"cost": {
+		"health": 0,
+		"stamina": 16
+	},
+	"cast_time": 1.0,
+	"cooldown": 40.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 0,
+		"utility": 2
+	},
+	"duration": 30.0,
+	"image": 3
+}

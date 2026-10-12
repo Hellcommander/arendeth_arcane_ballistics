@@ -1,0 +1,285 @@
+[
+	{
+		"id": "arendeth_arcane_ballistics_mastery",
+		"name": "Arcane Ballistics Mastery",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "statistic_percent",
+				"value": "strength",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "dexterity",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "endurance",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "intelligence",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "willpower",
+				"secondary_value": 0.1
+			}
+		]
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arcane_battery",
+		"name": "Arcane Battery",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.06
+			},
+			{
+				"effect": "max_stamina",
+				"value": 10
+			}
+		],
+		"description": "Your rig is always charged. +6% ability damage and +10 max stamina. Turret Power itself comes from deployed turrets."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_rapid_deployment",
+		"name": "Rapid Deployment",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_summon_arcane_turret",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_summon_spore_mortar",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_summon_void_ballista",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_summon_pulse_turret",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_twin_turret_deployment",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_tri_node_deployment",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_glyph_snare_trap",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_arcane_mine",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_astral_flame_trap",
+				"secondary_value": 1.0
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_arcane_ballistics_summon_arcane_battery_turret",
+				"secondary_value": 1.0
+			}
+		],
+		"description": "Deployed turrets and traps last twice as long."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_fire_support",
+		"name": "Fire Support",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_arcane_ballistics_astral_arrow",
+				"secondary_value": "arendeth_arcane_ballistics_arcane_volley",
+				"third_value": 0.25
+			},
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.04
+			}
+		],
+		"description": "Casting Astral Arrow has a 25% chance to trigger Arcane Volley."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_hardened_chassis",
+		"name": "Hardened Chassis",
+		"image": 4,
+		"effects": [
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.1
+			},
+			{
+				"effect": "armor_percent",
+				"value": 0.1
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "electricity",
+				"secondary_value": 0.25
+			}
+		],
+		"description": "Insulated plating: +10% health, +10% armor and 25% electricity resistance."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_corrosive_rounds",
+		"name": "Corrosive Rounds",
+		"image": 5,
+		"effects": [
+			{
+				"effect": "target_resistance",
+				"value": "physical",
+				"secondary_value": -0.1
+			},
+			{
+				"effect": "target_resistance",
+				"value": "electricity",
+				"secondary_value": -0.1
+			}
+		],
+		"description": "Your shots and turrets weaken enemy physical and electricity resistance."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_ballistic_focus",
+		"name": "Ballistic Focus",
+		"image": 6,
+		"effects": [
+			{
+				"effect": "critical_hit",
+				"value": 0.05
+			},
+			{
+				"effect": "critical_damage",
+				"value": 0.15
+			},
+			{
+				"effect": "hit_bonus",
+				"value": 2
+			}
+		],
+		"description": "Steadier aim: +5% crit chance, +15% crit damage, improved accuracy."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_turret_field_amplifier",
+		"name": "Turret Field Amplifier",
+		"image": 7,
+		"effects": [
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.06
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "intelligence",
+				"secondary_value": 0.1
+			}
+		],
+		"description": "Your field network sharpens your mind: +6% ability damage and +10% intelligence."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_turret_network",
+		"name": "Turret Network",
+		"image": 8,
+		"effects": [
+			{
+				"effect": "ability_damage_multiplier",
+				"value": 0.06
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "holy",
+				"secondary_value": 0.15
+			},
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.1
+			}
+		],
+		"description": "Linked emplacements: +6% ability damage, 15% holy resistance and +10% health."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_conductive_specialization",
+		"name": "Conductive Specialization",
+		"image": 9,
+		"effects": [
+			{
+				"effect": "damage_percent",
+				"value": "electricity",
+				"secondary_value": 0.12
+			},
+			{
+				"effect": "target_resistance",
+				"value": "electricity",
+				"secondary_value": -0.15
+			}
+		],
+		"description": "+12% electricity damage and enemies resist electricity 15% less."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_static_discharge",
+		"name": "Static Discharge",
+		"image": 10,
+		"effects": [
+			{
+				"effect": "apply_chance",
+				"value": "cast_ability_on_hit:core_2_Overload",
+				"secondary_value": 0.15
+			}
+		],
+		"description": "15% chance to cast Overload on hit."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_grounded_rig",
+		"name": "Grounded Rig",
+		"image": 11,
+		"effects": [
+			{
+				"effect": "heal_on_damage_type",
+				"value": "electricity",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "arendeth_arcane_ballistics_shock",
+				"secondary_value": 4
+			}
+		],
+		"description": "Heal for 10% of incoming electricity damage; regain 4 stamina when Shock stacks are consumed."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_overwatch_relay",
+		"name": "Overwatch Relay",
+		"image": 12,
+		"effects": [
+			{
+				"effect": "apply_chance",
+				"value": "on_attack_cast:arendeth_arcane_ballistics_turret_bolt",
+				"secondary_value": 0.25
+			}
+		],
+		"description": "25% chance to fire a Coil Bolt when you attack."
+	}
+]

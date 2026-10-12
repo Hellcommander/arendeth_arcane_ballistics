@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_snare_arrow",
+	"name": "Magnetic Snare Arrow",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_arcane_snare_arrow"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

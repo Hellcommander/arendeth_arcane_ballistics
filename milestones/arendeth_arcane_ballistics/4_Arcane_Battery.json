@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_battery",
+	"name": "Arcane Battery",
+	"requirements": {
+		"milestones": [],
+		"skill": 4
+	},
+	"rewards": [
+		{
+			"passive": "arendeth_arcane_ballistics_arcane_battery"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

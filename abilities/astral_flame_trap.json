@@ -1,0 +1,29 @@
+{
+	"id": "arendeth_arcane_ballistics_astral_flame_trap",
+	"name": "Arc Flare Trap",
+	"description": "Lay a trap that discharges a flare of heavy Shock on enemies that approach.",
+	"target": "aoe_tile",
+	"range": 7,
+	"effects": {
+		"summon_count": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_arcane_ballistics_trap_astral_flame"
+	},
+	"animation": "34",
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"cast_time": 0.8,
+	"cooldown": 12.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"duration": 40.0,
+	"image": 9
+}

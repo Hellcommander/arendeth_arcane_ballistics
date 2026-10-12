@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_void_ballista",
+	"name": "Summon Rail Ballista",
+	"requirements": {
+		"milestones": [],
+		"skill": 24
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_summon_void_ballista"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_kinetic_amplifier",
+	"name": "Kinetic Amplifier",
+	"requirements": {
+		"milestones": [],
+		"skill": 31
+	},
+	"rewards": [
+		{
+			"amplifier": "arendeth_arcane_ballistics_kinetic_amplifier"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

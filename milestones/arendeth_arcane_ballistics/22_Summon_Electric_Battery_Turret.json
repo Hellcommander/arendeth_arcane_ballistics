@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_arcane_battery_turret",
+	"name": "Summon Electric Battery Turret",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_summon_arcane_battery_turret"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

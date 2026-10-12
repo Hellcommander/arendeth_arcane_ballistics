@@ -1,0 +1,46 @@
+{
+	"graphics": {
+		"tilesheets": [
+			{
+				"name": "skills",
+				"tiles": [
+					1,
+					1
+				],
+				"file": "assets/skills.png"
+			},
+			{
+				"name": "abilities",
+				"tiles": [
+					16,
+					8
+				],
+				"file": "assets/abilities.png"
+			},
+			{
+				"name": "amplifiers",
+				"tiles": [
+					16,
+					8
+				],
+				"file": "assets/amplifiers.png"
+			},
+			{
+				"name": "passive_skills",
+				"tiles": [
+					16,
+					4
+				],
+				"file": "assets/passive_skills.png"
+			},
+			{
+				"name": "stackers",
+				"tiles": [
+					16,
+					2
+				],
+				"file": "assets/stackers.png"
+			}
+		]
+	}
+}

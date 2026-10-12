@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_twin_turret_deployment",
+	"name": "Twin Coil Deployment",
+	"requirements": {
+		"milestones": [],
+		"skill": 8
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_twin_turret_deployment"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

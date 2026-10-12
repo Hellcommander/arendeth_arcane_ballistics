@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_turret_overclock",
+	"name": "Turret Overclock",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_turret_overclock"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

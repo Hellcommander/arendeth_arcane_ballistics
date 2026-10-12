@@ -1,0 +1,39 @@
+{
+	"id": "arendeth_arcane_ballistics_arcane_volley",
+	"name": "Arc Bolt Volley",
+	"description": "A fan of charged bolts that pierces the line. Builds Shock.",
+	"target": "actor",
+	"range": 9,
+	"effects": {
+		"damage": [
+			4,
+			8
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 0.6,
+		"magic_power_damage": 0.8,
+		"pierce": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"stacker_count": 3,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"animation": "core_2_Spectral_Chain",
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"cast_time": 0.8,
+	"cooldown": 6.0,
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"duration": 0.0,
+	"image": 5,
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

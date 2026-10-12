@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_summon_astral_cannon",
+	"name": "Summon Storm Cannon",
+	"requirements": {
+		"milestones": [],
+		"skill": 45
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_summon_astral_cannon"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}
