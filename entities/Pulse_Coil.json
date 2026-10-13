@@ -1,0 +1,147 @@
+{
+	"ability_user": [
+		"arendeth_arcane_ballistics_pulse_turret_pulse"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 30,
+		"fire": 0,
+		"frost": 0,
+		"holy": 20,
+		"parry": 0,
+		"physical": 8,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"light_source",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"temporary",
+		"weapon"
+	],
+	"corpse": [],
+	"description": "Pulse Coil: a stationary arcane emplacement. It cannot move; it fires on enemies in sight and feeds its owner Turret Power.",
+	"experience_gainer": {
+		"exp": 0,
+		"level": 15
+	},
+	"fighter": {
+		"attackNames": [
+			"Fire"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					200,
+					120,
+					255
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 80,
+	"id": "arendeth_arcane_ballistics_turret_pulse",
+	"light_source": {
+		"finish": -1,
+		"lit_image": 465,
+		"range": 4
+	},
+	"minimap_pixel": [
+		200,
+		120,
+		255
+	],
+	"name": "Pulse Coil",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": true
+	},
+	"skills": {
+		"milestones": [],
+		"skills": [
+			"arendeth_arcane_ballistics"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 2.0
+	},
+	"statistics": {
+		"dexterity": [
+			10,
+			10
+		],
+		"endurance": [
+			20,
+			20
+		],
+		"health_regen_tick": 10.0,
+		"hearing": 15,
+		"intelligence": [
+			20,
+			20
+		],
+		"magic_power": 14,
+		"strength": [
+			10,
+			10
+		],
+		"willpower": [
+			20,
+			20
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"temporary": 25.0,
+	"weapon": {
+		"attack_animation": "core_2_Lightning2",
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 10,
+		"type": 5
+	}
+}

@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_arcane_mine_blast",
 	"name": "Electric Mine Blast",
 	"description": "Electric Mine Blast (trap ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 2,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			8,

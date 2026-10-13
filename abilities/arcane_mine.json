@@ -4,6 +4,12 @@
 	"description": "Plant a mine that detonates in an electric blast scaling with Magic Power.",
 	"target": "aoe_tile",
 	"range": 7,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 1,
 		"aoe_range": 1,

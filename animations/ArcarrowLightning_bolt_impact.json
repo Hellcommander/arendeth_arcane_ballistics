@@ -1,0 +1,90 @@
+{
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_arcane_ballistics_Arc_Arrow_shoot",
+	"ignore_roof": false,
+	"name": "ArcarrowLightning bolt impact",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"spin": 8.0,
+			"tile_id": 1158
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"spin": 8.0,
+			"tile_id": 1159
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"spin": 8.0,
+			"tile_id": 1160
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"spin": 8.0,
+			"tile_id": 1161
+		},
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"spin": 8.0,
+			"tile_id": 1162
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"animation": "arendeth_arcane_ballistics_ArcarrowArrow_shoot",
+	"cast_time": 0.5,
+	"cooldown": 3.0,
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"description": "An electrically charged arrow. Scales with weapon damage and Magic Power (boosted by Turret Power). Builds Shock.",
+	"duration": 0.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.10000000149011612,
+		"damage": [
+			5,
+			9
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 0.699999988079071,
+		"magic_power_damage": 0.8999999761581421,
+		"stacker_count": 3
+	},
+	"id": "arendeth_arcane_ballistics_astral_arrow",
+	"image": 4,
+	"name": "Arc Arrow",
+	"range": 10,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"skill": "arendeth_arcane_ballistics",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

@@ -4,6 +4,12 @@
 	"description": "Lay a trap that discharges a flare of heavy Shock on enemies that approach.",
 	"target": "aoe_tile",
 	"range": 7,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 1,
 		"aoe_range": 1,

@@ -87,7 +87,7 @@
 			{
 				"chance": 1.0,
 				"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow",
-				"name": "Arcane Enginner's Bow",
+				"name": "Arcane Engineer's Bow",
 				"stack": 1
 			}
 		],
@@ -159,7 +159,8 @@
 			"arendeth_arcane_ballistics_arcane_singularity_trap",
 			"arendeth_arcane_ballistics_summon_astral_cannon",
 			"arendeth_arcane_ballistics_void_shot",
-			"core_2_bolt_thrower"
+			"core_2_bolt_thrower",
+			"arendeth_arcane_ballistics_Arcane_Engineers_Bow"
 		],
 		"skills": [
 			"core_2_construction",

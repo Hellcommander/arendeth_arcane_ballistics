@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_astral_cannon_blast",
 	"name": "Storm Cannon Blast",
 	"description": "Storm Cannon Blast (turret ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 12,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			20,

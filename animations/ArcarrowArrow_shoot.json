@@ -1,0 +1,35 @@
+{
+	"animation": "arendeth_arcane_ballistics_Storm_Burst_Arrow_Lightning_bolt_impact",
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_arcane_ballistics_Storm_Burst_Arrow_Lightning_bolt_impact",
+	"ignore_roof": true,
+	"name": "ArcarrowArrow shoot",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"flags": 1152,
+			"tile_id": 433,
+			"velocity": 35.0
+		}
+	],
+	"repeat": 1,
+	"sound": {
+		"id": "44",
+		"volume": 100
+	}
+}

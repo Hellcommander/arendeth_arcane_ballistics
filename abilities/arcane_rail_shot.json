@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_arcane_rail_shot",
 	"name": "Electric Rail Shot",
 	"description": "A massive piercing rail shot. Scales heavily with Magic Power. Builds Shock.",
-	"target": "actor",
+	"target": "health",
 	"range": 12,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			14,

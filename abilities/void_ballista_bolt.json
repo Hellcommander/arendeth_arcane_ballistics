@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_void_ballista_bolt",
 	"name": "Rail Ballista Bolt",
 	"description": "Rail Ballista Bolt (turret ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 12,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			8,

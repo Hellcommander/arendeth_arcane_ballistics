@@ -128,5 +128,22 @@
 		"skills": [
 			"arendeth_arcane_ballistics"
 		]
+	},
+		"weapon": {
+		"attack_animation": "core_2_Lightning2",
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 6,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 0,
+		"type": 5
 	}
 }

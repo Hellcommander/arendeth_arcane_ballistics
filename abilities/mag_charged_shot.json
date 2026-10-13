@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_mag_charged_shot",
 	"name": "Mag-Charged Shot",
 	"description": "A magnetically charged bolt that detonates on impact in an electric explosion. Scales with weapon damage and Magic Power (explosion mostly with Magic Power). Stuns and builds heavy Shock.",
-	"target": "actor",
+	"target": "health",
 	"range": 12,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			18,

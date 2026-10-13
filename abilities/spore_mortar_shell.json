@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_spore_mortar_shell",
 	"name": "Tesla Mortar Shell",
 	"description": "Tesla Mortar Shell (turret ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 11,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			3,

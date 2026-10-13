@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_astral_flame_burst",
 	"name": "Arc Flare Burst",
 	"description": "Arc Flare Burst (trap ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 2,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			2,

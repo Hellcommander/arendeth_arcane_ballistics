@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_glyph_snare_pulse",
 	"name": "Electric Snare",
 	"description": "Electric Snare (trap ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 2,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"immobilize": 3,
 		"damage": [

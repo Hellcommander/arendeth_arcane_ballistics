@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_singularity_collapse",
 	"name": "Electric Singularity Collapse",
 	"description": "Electric Singularity Collapse (trap ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 3,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			20,

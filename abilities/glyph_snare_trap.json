@@ -4,6 +4,12 @@
 	"description": "Lay a conductive snare that roots the first enemy to come near and builds Shock.",
 	"target": "aoe_tile",
 	"range": 7,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 1,
 		"aoe_range": 1,

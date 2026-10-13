@@ -4,6 +4,12 @@
 	"description": "The arrow bursts into a crackling electric field on impact. Builds Shock.",
 	"target": "aoe_tile",
 	"range": 9,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			3,

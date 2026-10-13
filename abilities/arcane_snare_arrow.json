@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_arcane_snare_arrow",
 	"name": "Magnetic Snare Arrow",
 	"description": "A magnetized arrow that roots its target and builds Shock.",
-	"target": "actor",
+	"target": "health",
 	"range": 9,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			3,

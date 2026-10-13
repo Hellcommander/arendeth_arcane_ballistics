@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_void_shot",
 	"name": "Static Shot",
 	"description": "A static-charged shot that exposes the target. Builds Shock.",
-	"target": "actor",
+	"target": "health",
 	"range": 10,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			7,

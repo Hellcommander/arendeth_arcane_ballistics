@@ -4,6 +4,12 @@
 	"description": "Deploy a stationary ballista firing piercing electric bolts. Grants Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 1,
 		"aoe_range": 1,

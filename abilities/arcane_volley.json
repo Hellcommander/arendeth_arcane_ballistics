@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_arcane_volley",
 	"name": "Arc Bolt Volley",
 	"description": "A fan of charged bolts that pierces the line. Builds Shock.",
-	"target": "actor",
+	"target": "health",
 	"range": 9,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			4,

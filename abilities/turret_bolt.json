@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_turret_bolt",
 	"name": "Coil Bolt",
 	"description": "Coil Bolt (turret ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 10,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			4,

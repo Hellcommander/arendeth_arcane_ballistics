@@ -4,6 +4,12 @@
 	"description": "Deploy two Coil Turrets at once. Grants 2 Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 2,
 		"aoe_range": 2,

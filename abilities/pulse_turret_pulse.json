@@ -2,8 +2,14 @@
 	"id": "arendeth_arcane_ballistics_pulse_turret_pulse",
 	"name": "Shock Pulse",
 	"description": "Shock Pulse (turret ability).",
-	"target": "actor",
+	"target": "health",
 	"range": 5,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"damage": [
 			4,

@@ -4,6 +4,12 @@
 	"description": "Deploy three Coil Turrets in a triangle. Grants 3 Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"summon_count": 3,
 		"aoe_range": 2,

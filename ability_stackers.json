@@ -6,13 +6,14 @@
 		"effects": [
 			{
 				"effect": "magic_power",
-				"value": 2
+				"value": 1
 			}
 		],
 		"max_stacks": 8,
 		"apply_caster": true,
+		"restrict_weapon_type": "bow",
 		"duration": 30,
-		"description": "Each deployed turret feeds you power. +2 Magic Power per stack, up to 8. Lasts 30 turns if not refreshed."
+		"description": "Each deployed turret feeds you power. +1 Magic Power per stack, up to 8. Lasts 30 turns if not refreshed."
 	},
 	{
 		"id": "arendeth_arcane_ballistics_overclock",
@@ -30,6 +31,7 @@
 		],
 		"max_stacks": 5,
 		"apply_caster": true,
+		"restrict_weapon_type": "bow",
 		"duration": 8,
 		"description": "Over-driven firing rhythm. You attack quicker by 0.02 turn and deal +2% damage per stack, up to 5. Lasts 8 turns."
 	},

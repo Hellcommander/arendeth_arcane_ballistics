@@ -4,6 +4,12 @@
 	"description": "Overdrive your rig: gain Overclock stacks (faster attacks, more damage).",
 	"target": "self",
 	"range": 0,
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
 	"effects": {
 		"stacker_count": 2
 	},
