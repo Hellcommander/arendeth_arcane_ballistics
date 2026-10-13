@@ -11,5 +11,16 @@
     "allow_player": true,
     "min_area": 24,
     "group": "military",
-    "type": "military"
+    "type": "military",
+	"produces": [
+		{
+			"entities": [
+				{
+					"daily": 0.3,
+					"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow"
+				}
+			],
+			"takes": []
+		}
+	]
 }

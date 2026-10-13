@@ -1,0 +1,94 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 4
+			},
+			{
+				"amount": 2,
+				"id": 8
+			},
+			{
+				"amount": 2,
+				"id": 12
+			},
+			{
+				"amount": 2,
+				"id": 7
+			},
+			{
+				"amount": 4,
+				"id": 1
+			}
+		],
+		"time": 400,
+		"tools": [
+			14
+		]
+	},
+	"description": "A meticulously engineered bow forged from tempered metal limbs and threaded with arcane-conductive channels. Gem capacitors embedded along its frame pulse with stored energy, allowing the bow to fire at extended range despite its rigid construction. Though heavier and harder to aim than its wooden counterparts, the infused alloys stabilize each shot with a faint electrical resonance. Its power comes not from natural flex, but from precise craftsmanship and the arcane current humming through its core",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 423
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_arcane_ballistics_Advanced_Arcane_Engineers_Bow",
+	"item": {
+		"image": 124,
+		"type": 13
+	},
+	"minimap_pixel": [
+		60,
+		213,
+		155
+	],
+	"name": "Advanced Arcane Engineer's Bow",
+	"value": 10000,
+	"weapon": {
+		"attack_animation": "5",
+		"attack_speed": 1.0,
+		"critical_hit": 0.05000000074505806,
+		"damage": [
+			{
+				"dmg_max": 9,
+				"dmg_min": 5,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 4,
+				"dmg_min": 2,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 5,
+		"parry_bonus": 0,
+		"range": 10,
+		"type": 5
+	},
+	"weight": 2.700000047683716
+}

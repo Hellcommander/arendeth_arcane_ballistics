@@ -1,0 +1,90 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 3,
+		"resource_types": [
+			{
+				"amount": 1,
+				"id": 2
+			},
+			{
+				"amount": 2,
+				"id": 8
+			},
+			{
+				"amount": 2,
+				"id": 7
+			},
+			{
+				"amount": 3,
+				"id": 1
+			}
+		],
+		"time": 170,
+		"tools": [
+			14
+		]
+	},
+	"description": "A precision-crafted bow forged from tempered metal plates and bound with treated leather. Instead of relying on the natural flex of wood, its limbs are reinforced with arcane-conductive alloys that channel energy through embedded gemstones. Each shot resonates with stored power, releasing arrows with engineered accuracy and a faint crackle of magic. Though heavier and less flexible than traditional bows, its calibrated tension and gem-stabilizers grant it a rare chance to strike at the perfect moment.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					119,
+					183,
+					181
+				],
+				"delay": 0,
+				"index": 421
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow",
+	"item": {
+		"image": 1142,
+		"type": 13
+	},
+	"minimap_pixel": [
+		191,
+		122,
+		77
+	],
+	"name": "Arcane Engineer's Bow",
+	"value": 4500,
+	"weapon": {
+		"attack_animation": "5",
+		"attack_speed": 1.0,
+		"critical_hit": 0.05000000074505806,
+		"damage": [
+			{
+				"dmg_max": 7,
+				"dmg_min": 4,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 2,
+				"dmg_min": 1,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 2,
+		"parry_bonus": 0,
+		"range": 12,
+		"type": 5
+	},
+	"weight": 2.0
+}
