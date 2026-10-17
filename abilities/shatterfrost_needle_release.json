@@ -1,0 +1,29 @@
+{
+	"animation": "arendeth_arcane_ballistics_shatterfrost_needle_fx",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Released when a target reaches 3 Frost Charges: a burst of ::damage ::damage_type damage around it. Ignores party members.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			8,
+			14
+		],
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"frostbite": 2,
+		"damage_type": "frost",
+		"magic_power_damage": 0.6,
+		"ignore_party": 1
+	},
+	"id": "arendeth_arcane_ballistics_shatterfrost_needle_release",
+	"image": 24,
+	"name": "Shatterfrost Needle",
+	"range": 0,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "self"
+}

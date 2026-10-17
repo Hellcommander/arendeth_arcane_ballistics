@@ -29,7 +29,8 @@
 				"value": "willpower",
 				"secondary_value": 0.1
 			}
-		]
+		],
+		"description": "+10% to all attributes. Stacks with other combat-branch masteries."
 	},
 	{
 		"id": "arendeth_arcane_ballistics_arcane_battery",
@@ -38,7 +39,7 @@
 		"effects": [
 			{
 				"effect": "ability_damage_multiplier",
-				"value": 0.06
+				"value": 0.04
 			},
 			{
 				"effect": "max_stamina",
@@ -55,55 +56,55 @@
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_summon_arcane_turret",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_summon_spore_mortar",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_summon_void_ballista",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_summon_pulse_turret",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_twin_turret_deployment",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_tri_node_deployment",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_glyph_snare_trap",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_arcane_mine",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_astral_flame_trap",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			},
 			{
 				"effect": "ability_extend_duration",
 				"value": "arendeth_arcane_ballistics_summon_arcane_battery_turret",
-				"secondary_value": 1.0
+				"secondary_value": 0.5
 			}
 		],
-		"description": "Deployed turrets and traps last twice as long."
+		"description": "Deployed turrets and traps last 50% longer."
 	},
 	{
 		"id": "arendeth_arcane_ballistics_fire_support",
@@ -118,7 +119,7 @@
 			},
 			{
 				"effect": "ability_damage_multiplier",
-				"value": 0.04
+				"value": 0.03
 			}
 		],
 		"description": "Casting Astral Arrow has a 25% chance to trigger Arcane Volley."
@@ -189,7 +190,7 @@
 		"effects": [
 			{
 				"effect": "ability_damage_multiplier",
-				"value": 0.06
+				"value": 0.04
 			},
 			{
 				"effect": "statistic_percent",
@@ -206,7 +207,7 @@
 		"effects": [
 			{
 				"effect": "ability_damage_multiplier",
-				"value": 0.06
+				"value": 0.04
 			},
 			{
 				"effect": "damage_type_reduction",
@@ -228,12 +229,12 @@
 			{
 				"effect": "damage_percent",
 				"value": "electricity",
-				"secondary_value": 0.12
+				"secondary_value": 0.1
 			},
 			{
 				"effect": "target_resistance",
 				"value": "electricity",
-				"secondary_value": -0.15
+				"secondary_value": -0.1
 			}
 		],
 		"description": "+12% electricity damage and enemies resist electricity 15% less."
@@ -281,5 +282,89 @@
 			}
 		],
 		"description": "25% chance to fire a Coil Bolt when you attack."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_convergent_arrows",
+		"name": "Convergent Arrows",
+		"image": 13,
+		"effects": [
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_arcane_ballistics_arc_beam",
+				"secondary_value": "arendeth_arcane_ballistics_shatterfrost_lance",
+				"third_value": 0.25
+			},
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_arcane_ballistics_shatterfrost_lance",
+				"secondary_value": "arendeth_arcane_ballistics_astral_volley",
+				"third_value": 0.25
+			},
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_arcane_ballistics_astral_volley",
+				"secondary_value": "arendeth_arcane_ballistics_void_piercer",
+				"third_value": 0.25
+			},
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "arendeth_arcane_ballistics_void_piercer",
+				"secondary_value": "arendeth_arcane_ballistics_arc_beam",
+				"third_value": 0.25
+			}
+		],
+		"description": "Your channelled bow spells have a 25% chance to loose the next element's shot as well: Arc Beam to Shatterfrost Lance to Astral Volley to Void Piercer and back to Arc Beam."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_charge_arcane",
+		"name": "Arcane Charge",
+		"image": 10,
+		"description": "Your electricity damage puts a Arcane Charge on the target (3 stacks release Arc Spark). Strike with a Arcane Infusion active to build them with your bow.",
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "arendeth_arcane_ballistics_arcane_charge",
+				"secondary_value": "electricity"
+			}
+		]
+	},
+	{
+		"id": "arendeth_arcane_ballistics_charge_frost",
+		"name": "Frost Charge",
+		"image": 5,
+		"description": "Your frost damage puts a Frost Charge on the target (3 stacks release Shatterfrost Needle). Strike with a Frost Infusion active to build them with your bow.",
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "arendeth_arcane_ballistics_frost_charge",
+				"secondary_value": "frost"
+			}
+		]
+	},
+	{
+		"id": "arendeth_arcane_ballistics_charge_astral",
+		"name": "Astral Charge",
+		"image": 13,
+		"description": "Your holy damage puts a Astral Charge on the target (3 stacks release Astral Wisp). Strike with a Astral Infusion active to build them with your bow.",
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "arendeth_arcane_ballistics_astral_charge",
+				"secondary_value": "holy"
+			}
+		]
+	},
+	{
+		"id": "arendeth_arcane_ballistics_charge_void",
+		"name": "Void Charge",
+		"image": 7,
+		"description": "Your death damage puts a Void Charge on the target (3 stacks release Void Pulse). Strike with a Void Infusion active to build them with your bow.",
+		"effects": [
+			{
+				"effect": "on_damage_type_stack",
+				"value": "arendeth_arcane_ballistics_void_charge",
+				"secondary_value": "death"
+			}
+		]
 	}
 ]

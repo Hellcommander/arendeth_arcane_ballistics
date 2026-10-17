@@ -20,7 +20,7 @@
 		"summon": "arendeth_arcane_ballistics_turret_pulse",
 		"stacker": "arendeth_arcane_ballistics_turret_power"
 	},
-	"animation": "160",
+	"animation": "arendeth_arcane_ballistics_summon_pulse_coil_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 9
@@ -32,6 +32,6 @@
 		"offensive": 0,
 		"utility": 2
 	},
-	"duration": 25.0,
-	"image": 5
+	"duration": 15.0,
+	"image": 31
 }

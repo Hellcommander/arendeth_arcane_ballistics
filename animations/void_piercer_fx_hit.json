@@ -1,0 +1,250 @@
+{
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 2,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_arcane_ballistics_void_piercer_fx_hit",
+	"ignore_roof": true,
+	"name": "Void Piercer FX Hit",
+	"sound": {
+		"id": "151",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 50.0,
+			"pulse_background": 60.0,
+			"tile_id": 49
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 50.0,
+			"pulse_background": 60.0,
+			"tile_id": 50
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 100.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 51
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 200.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 52
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 300.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 53
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 400.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1344
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 500.0,
+			"explosion_range": 1,
+			"flags": 64,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1345
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"explosion_range": 2,
+			"flags": 74,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"tile_id": 1344,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 2,
+			"flags": 74,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 10.0,
+			"tile_id": 1345,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					200
+				]
+			],
+			"delay": 100.0,
+			"explosion_range": 2,
+			"flags": 66,
+			"life": 400.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 20.0,
+			"tile_id": 1346,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 550.0,
+			"explosion_range": 1,
+			"flags": 72,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1346
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 650.0,
+			"explosion_range": 1,
+			"flags": 2120,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1343
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					147
+				]
+			],
+			"delay": 200.0,
+			"explosion_range": 2,
+			"flags": 66,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 10.0,
+			"tile_id": 1343,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 450.0,
+			"explosion_range": 2,
+			"flags": 2056,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 53
+		}
+	]
+}

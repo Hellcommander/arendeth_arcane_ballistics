@@ -25,7 +25,7 @@
 		"ability_can_crit": 1,
 		"critical_hit_chance": 0.1
 	},
-	"animation": "core_2_Spectral_Chain",
+	"animation": "arendeth_arcane_ballistics_arc_bolt_volley_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 7
@@ -38,7 +38,7 @@
 		"utility": 1
 	},
 	"duration": 0.0,
-	"image": 5,
+	"image": 8,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

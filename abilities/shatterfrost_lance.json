@@ -1,0 +1,44 @@
+{
+	"animation": "arendeth_arcane_ballistics_shatterfrost_lance_fx",
+	"cast_time": 1.0,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 9
+	},
+	"description": "Channel frost energy through your bow: a shot of ::damage ::damage_type damage that also places 2 Frost Charges on the target. Scales with weapon damage and Magic Power. Needs a bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			13,
+			20
+		],
+		"pierce": 1,
+		"frostbite": 1,
+		"damage_type": "frost",
+		"damage_weapon": 0.56,
+		"magic_power_damage": 0.84,
+		"stacker_count": 2,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"id": "arendeth_arcane_ballistics_shatterfrost_lance",
+	"image": 23,
+	"name": "Shatterfrost Lance",
+	"range": 10,
+	"skill": "arendeth_arcane_ballistics",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_frost_charge"
+	},
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

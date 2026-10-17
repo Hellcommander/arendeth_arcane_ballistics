@@ -1,0 +1,36 @@
+{
+	"animation": "arendeth_arcane_ballistics_magnetic_snare_arrow_fx",
+	"cast_time": 0.5,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 10
+	},
+	"description": "Loose a magnetised arrow that drags the target up to 3 tiles toward you and pins it, dealing ::damage ::damage_type damage in a small area. Scales with weapon damage and Magic Power. Granted by the Magnetic Draw Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			11,
+			17
+		],
+		"damage_type": "electricity",
+		"damage_weapon": 0.55,
+		"magic_power_damage": 0.7,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"pull_target": 3,
+		"immobilize": 1,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"stacker_count": 3
+	},
+	"id": "arendeth_arcane_ballistics_magnetic_draw",
+	"image": 7,
+	"name": "Magnetic Draw",
+	"range": 11,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_shock"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"animation": "arendeth_arcane_ballistics_arc_beam_fx",
+	"cast_time": 0.4,
+	"cooldown": 5.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "Channel arcane energy through your bow: a shot of ::damage ::damage_type damage that also places 1 Arcane Charge on the target. Scales with weapon damage and Magic Power. Needs a bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			8,
+			14
+		],
+		"pierce": 2,
+		"damage_type": "electricity",
+		"damage_weapon": 0.68,
+		"magic_power_damage": 0.93,
+		"stacker_count": 1,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"id": "arendeth_arcane_ballistics_arc_beam",
+	"image": 0,
+	"name": "Arc Beam",
+	"range": 10,
+	"skill": "arendeth_arcane_ballistics",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_arcane_charge"
+	},
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

@@ -165,11 +165,11 @@
 		"bonuses": [
 			{
 				"effect": "damage_per_stacks",
-				"value": 2,
+				"value": 1,
 				"secondary_value": "arendeth_arcane_ballistics_turret_power"
 			}
 		],
-		"image": 12,
+		"image": 11,
 		"description": "Your turrets feed the shot: +2 damage per Turret Power stack."
 	},
 	{
@@ -178,7 +178,7 @@
 		"type": "utility",
 		"duration": 10,
 		"cost_stamina": 2,
-		"image": 13,
+		"image": 12,
 		"description": "Turrets stay deployed 10 turns longer. Costs more stamina."
 	},
 	{
@@ -192,7 +192,7 @@
 				"secondary_value": 10
 			}
 		],
-		"image": 14,
+		"image": 13,
 		"description": "+1 damage for every Coil Turret within 10 tiles."
 	},
 	{
@@ -205,7 +205,7 @@
 				"value": 1
 			}
 		],
-		"image": 15,
+		"image": 14,
 		"description": "Your bow's weapon damage is converted into magic damage."
 	},
 	{
@@ -219,7 +219,7 @@
 			}
 		],
 		"cast_time": -0.1,
-		"image": 11,
+		"image": 15,
 		"description": "Faster to loose, slightly stronger."
 	},
 	{
@@ -229,7 +229,7 @@
 		"bonuses": [
 			{
 				"effect": "damage_per_stacks",
-				"value": 3,
+				"value": 2,
 				"secondary_value": "arendeth_arcane_ballistics_turret_power"
 			}
 		],
@@ -465,5 +465,61 @@
 		"cost_stamina": 3,
 		"image": 29,
 		"description": "Leave 2 Electric Mines at the impact."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arcane_draw",
+		"name": "Arcane Draw",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_arcane_ballistics_arcane_charge",
+				"secondary_value": 1
+			}
+		],
+		"image": 30,
+		"description": "Draw the string with extra arcane energy: the shot places 1 more Arcane Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_frost_draw",
+		"name": "Frost Draw",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_arcane_ballistics_frost_charge",
+				"secondary_value": 1
+			}
+		],
+		"image": 31,
+		"description": "Draw the string with extra frost energy: the shot places 1 more Frost Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_astral_draw",
+		"name": "Astral Draw",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_arcane_ballistics_astral_charge",
+				"secondary_value": 1
+			}
+		],
+		"image": 32,
+		"description": "Draw the string with extra astral energy: the shot places 1 more Astral Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_void_draw",
+		"name": "Void Draw",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_arcane_ballistics_void_charge",
+				"secondary_value": 1
+			}
+		],
+		"image": 33,
+		"description": "Draw the string with extra void energy: the shot places 1 more Void Charge on the target."
 	}
 ]

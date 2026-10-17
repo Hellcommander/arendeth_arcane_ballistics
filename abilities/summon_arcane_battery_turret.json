@@ -19,7 +19,7 @@
 		"summon": "arendeth_arcane_ballistics_turret_arcane_battery",
 		"stacker": "arendeth_arcane_ballistics_turret_power"
 	},
-	"animation": "160",
+	"animation": "arendeth_arcane_ballistics_summon_electric_battery_turret_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 10
@@ -31,6 +31,6 @@
 		"offensive": 0,
 		"utility": 2
 	},
-	"duration": 25.0,
-	"image": 11
+	"duration": 20.0,
+	"image": 28
 }

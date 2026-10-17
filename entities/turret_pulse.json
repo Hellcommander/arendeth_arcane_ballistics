@@ -27,6 +27,7 @@
 		"actor",
 		"armor",
 		"artificial_intelligence",
+		"collidable",
 		"experience_gainer",
 		"fighter",
 		"glyph",
@@ -39,8 +40,7 @@
 		"skills",
 		"stamina",
 		"statistics",
-		"tags",
-		"temporary"
+		"tags"
 	],
 	"description": "Pulse Coil: a stationary arcane emplacement. It cannot move; it fires on enemies in sight and feeds its owner Turret Power.",
 	"fighter": {
@@ -52,12 +52,12 @@
 		"frames": [
 			{
 				"color": [
-					200,
-					120,
+					255,
+					255,
 					255
 				],
 				"delay": 100,
-				"index": 560
+				"index": 10
 			}
 		],
 		"random_frame_start": false
@@ -115,10 +115,10 @@
 	},
 	"tags": [
 		"3",
+		"32",
 		"Arcane_Turret"
 	],
 	"corpse": [],
-	"temporary": 25,
 	"experience_gainer": {
 		"exp": 0,
 		"level": 15
@@ -129,7 +129,7 @@
 			"arendeth_arcane_ballistics"
 		]
 	},
-		"weapon": {
+	"weapon": {
 		"attack_animation": "core_2_Lightning2",
 		"attack_speed": 1.0,
 		"critical_hit": 0.0,

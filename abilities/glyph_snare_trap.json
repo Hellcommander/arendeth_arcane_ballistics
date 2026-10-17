@@ -18,7 +18,7 @@
 	"effects_keys": {
 		"summon": "arendeth_arcane_ballistics_trap_glyph_snare"
 	},
-	"animation": "34",
+	"animation": "arendeth_arcane_ballistics_electric_snare_trap_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 4
@@ -31,5 +31,5 @@
 		"utility": 1
 	},
 	"duration": 40.0,
-	"image": 7
+	"image": 20
 }

@@ -1,0 +1,35 @@
+{
+	"animation": "arendeth_arcane_ballistics_astral_volley_fx",
+	"cast_time": 0.5,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"description": "Focus the lens on a target: a burst of ::damage ::damage_type damage around it that leaves everything struck vulnerable and places 2 Astral Charges. Scales with weapon damage and Magic Power. Granted by the Astral Lens Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			12,
+			20
+		],
+		"damage_type": "holy",
+		"damage_weapon": 0.7,
+		"magic_power_damage": 0.9,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"vulnerable": 1,
+		"stacker_count": 2
+	},
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_astral_charge"
+	},
+	"id": "arendeth_arcane_ballistics_lensed_volley",
+	"image": 14,
+	"name": "Lensed Volley",
+	"range": 13,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health"
+}

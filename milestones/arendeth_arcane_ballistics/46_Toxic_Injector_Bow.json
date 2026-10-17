@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_Toxic_Injector_Bow",
+	"name": "Toxic Injector Bow",
+	"requirements": {
+		"milestones": [],
+		"skill": 46
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_arcane_ballistics_Toxic_Injector_Bow"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,175 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_arcane_ballistics_electric_singularity_trap_fx",
+	"ignore_roof": true,
+	"name": "Electric Singularity Trap FX",
+	"sound": {
+		"id": "62",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 65
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 66
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 67
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 68
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 68
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 67
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 66
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 65
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1344
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1345
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1346
+		},
+		{
+			"color": [
+				[
+					140,
+					120,
+					255,
+					255
+				]
+			],
+			"delay": 600.0,
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1343
+		}
+	]
+}

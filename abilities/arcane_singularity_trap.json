@@ -18,7 +18,7 @@
 	"effects_keys": {
 		"summon": "arendeth_arcane_ballistics_trap_singularity"
 	},
-	"animation": "34",
+	"animation": "arendeth_arcane_ballistics_electric_singularity_trap_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 14
@@ -31,5 +31,5 @@
 		"utility": 1
 	},
 	"duration": 40.0,
-	"image": 10
+	"image": 6
 }

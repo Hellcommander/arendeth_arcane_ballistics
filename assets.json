@@ -40,6 +40,22 @@
 					2
 				],
 				"file": "assets/stackers.png"
+			},
+			{
+				"name": "glyph32",
+				"tiles": [
+					16,
+					2
+				],
+				"file": "assets/glyphs.png"
+			},
+			{
+				"name": "items",
+				"tiles": [
+					16,
+					1
+				],
+				"file": "assets/items.png"
 			}
 		]
 	}

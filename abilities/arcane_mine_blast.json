@@ -22,7 +22,7 @@
 		"knockback": 1,
 		"stacker_count": 5
 	},
-	"animation": "core_2_Blizzard_single_impact",
+	"animation": "arendeth_arcane_ballistics_electric_mine_blast_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 0
@@ -35,7 +35,7 @@
 		"utility": 0
 	},
 	"duration": 0.0,
-	"image": 9,
+	"image": 4,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

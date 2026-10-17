@@ -1,0 +1,81 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_arcane_ballistics_electric_snare_fx",
+	"ignore_roof": true,
+	"name": "Electric Snare FX",
+	"sound": {
+		"id": "15",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					170,
+					140,
+					255,
+					255
+				]
+			],
+			"explosion_range": 2,
+			"flags": 2242,
+			"pulse_background": 200.0,
+			"tile_id": 743,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					170,
+					140,
+					255,
+					255
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 3,
+			"flags": 2242,
+			"pulse_background": 200.0,
+			"tile_id": 744,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					170,
+					140,
+					255,
+					255
+				]
+			],
+			"delay": 100.0,
+			"explosion_range": 4,
+			"flags": 2266,
+			"pulse_background": 200.0,
+			"tile_id": 745,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					170,
+					140,
+					255,
+					255
+				]
+			],
+			"delay": 150.0,
+			"explosion_range": 5,
+			"flags": 2266,
+			"pulse_background": 200.0,
+			"tile_id": 746,
+			"velocity": 50.0
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"animation": "arendeth_arcane_ballistics_arc_flare_burst_fx",
+	"cast_time": 0.5,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 10
+	},
+	"description": "Loose an arrow that detonates in a burst of ::damage ::damage_type damage around the target and sets everything it strikes burning. Scales with weapon damage and Magic Power. Granted by the Pyro Capacitor Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			10,
+			16
+		],
+		"damage_type": "fire",
+		"damage_weapon": 0.55,
+		"magic_power_damage": 0.7,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"burn": 3
+	},
+	"id": "arendeth_arcane_ballistics_capacitor_burst",
+	"image": 11,
+	"name": "Capacitor Burst",
+	"range": 11,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health"
+}

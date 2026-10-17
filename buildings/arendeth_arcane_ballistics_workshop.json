@@ -1,17 +1,23 @@
 {
-    "id": "arendeth_arcane_ballistics_workshop",
-    "name": "Arcane Ballistics Workshop",
-    "image": 41,
-    "max": 1,
-    "occupation_image": 74,
-    "occupation": "Arcane_Engineer",
-    "race": "-1",
-    "tier": 2,
-    "workers": [1, 4],
-    "allow_player": true,
-    "min_area": 24,
-    "group": "military",
-    "type": "military",
+	"enables": [
+		"arendeth_arcane_ballistics"
+	],
+	"id": "arendeth_arcane_ballistics_workshop",
+	"name": "Arcane Ballistics Workshop",
+	"image": 41,
+	"max": 1,
+	"occupation_image": 74,
+	"occupation": "arendeth_arcane_ballistics_Elf_Arcane_Engineer",
+	"race": "-1",
+	"tier": 2,
+	"workers": [
+		1,
+		4
+	],
+	"allow_player": true,
+	"min_area": 24,
+	"group": "military",
+	"type": "military",
 	"produces": [
 		{
 			"entities": [
@@ -20,7 +26,17 @@
 					"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow"
 				}
 			],
-			"takes": []
+			"takes": "craftable"
 		}
-	]
+	],
+	"occupation_per_race": {
+		"2": "arendeth_arcane_ballistics_Elf_Arcane_Engineer",
+		"0": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Human",
+		"1": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Dwarf",
+		"4": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Goblin",
+		"7": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Troll",
+		"8": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Orc",
+		"23": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Reptilion",
+		"6": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Vampire"
+	}
 }

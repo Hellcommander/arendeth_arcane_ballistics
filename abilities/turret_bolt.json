@@ -19,7 +19,7 @@
 		"magic_power_damage": 0.8,
 		"stacker_count": 1
 	},
-	"animation": "core_2_Spectral_Chain",
+	"animation": "arendeth_arcane_ballistics_coil_bolt_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 0
@@ -32,7 +32,7 @@
 		"utility": 0
 	},
 	"duration": 0.0,
-	"image": 9,
+	"image": 35,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

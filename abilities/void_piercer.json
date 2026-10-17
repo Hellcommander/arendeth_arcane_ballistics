@@ -1,0 +1,44 @@
+{
+	"animation": "arendeth_arcane_ballistics_void_piercer_fx",
+	"cast_time": 0.8,
+	"cooldown": 9.0,
+	"cost": {
+		"health": 0,
+		"stamina": 9
+	},
+	"description": "Channel void energy through your bow: a shot of ::damage ::damage_type damage that also places 2 Void Charges on the target. Scales with weapon damage and Magic Power. Needs a bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			9,
+			16
+		],
+		"pierce": 3,
+		"vulnerable": 1,
+		"damage_type": "death",
+		"damage_weapon": 0.52,
+		"magic_power_damage": 0.78,
+		"stacker_count": 2,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"id": "arendeth_arcane_ballistics_void_piercer",
+	"image": 39,
+	"name": "Void Piercer",
+	"range": 10,
+	"skill": "arendeth_arcane_ballistics",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_void_charge"
+	},
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

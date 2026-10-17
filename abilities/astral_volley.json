@@ -1,0 +1,43 @@
+{
+	"animation": "arendeth_arcane_ballistics_astral_volley_fx",
+	"cast_time": 0.6,
+	"cooldown": 6.0,
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"description": "Channel astral energy through your bow: a shot of ::damage ::damage_type damage that also places 1 Astral Charge on the target. Scales with weapon damage and Magic Power. Needs a bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			8,
+			14
+		],
+		"chain": 3,
+		"damage_type": "holy",
+		"damage_weapon": 0.8,
+		"magic_power_damage": 0.9,
+		"stacker_count": 1,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1
+	},
+	"id": "arendeth_arcane_ballistics_astral_volley",
+	"image": 13,
+	"name": "Astral Volley",
+	"range": 10,
+	"skill": "arendeth_arcane_ballistics",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_astral_charge"
+	},
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "health"
+}

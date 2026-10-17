@@ -1,0 +1,19 @@
+{
+	"id": "arendeth_arcane_ballistics_ballistic_infusion_void",
+	"name": "Ballistic Infusion: Void",
+	"requirements": {
+		"milestones": [],
+		"skill": 29
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_ballistic_infusion_void"
+		},
+		{
+			"passive": "arendeth_arcane_ballistics_charge_void"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

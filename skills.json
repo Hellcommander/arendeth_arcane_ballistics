@@ -3,7 +3,7 @@
 		"id": "arendeth_arcane_ballistics",
 		"name": "Arcane Ballistics",
 		"image": 0,
-		"description": "A ranged arcane engineer's discipline. Electric bow-caster engineering: charged arrows, stationary coil turrets and conductive traps. Everything deals electricity damage and builds Shock; Magic Power grows with every turret standing.\n\nTrain at a Celestial Collegium or by using abilities.\n\nEvery level from 11 onward grants +1 statistic.\n\nLevel 30 grants Arcane Ballistics Mastery (+10% all attributes; stacks with other combat-branch masteries).",
+		"description": "A ranged arcane engineer's discipline. Electric bow-caster engineering: charged arrows, stationary coil turrets and conductive traps. Everything deals electricity damage and builds Shock; Magic Power grows with every turret standing.\n\nTrain at a Celestial Collegium or by using abilities.\n\nEvery level from 11 onward grants +1 statistic.\n\nLevel 30 grants Arcane Ballistics Mastery (+10% all attributes; stacks with other combat-branch masteries).\n\nBallistic Infusions enchant your bow with an element for 30 turns. Hits of that element put an elemental Charge on the target (Arcane = electricity from level 11, Frost, Astral = holy, Void = death); at 3 stacks the Charge releases a spell. Charges fade after 2 turns.",
 		"combat_skill": true,
 		"exp_sources": [
 			{

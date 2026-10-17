@@ -22,7 +22,7 @@
 		"aoe_shape": 1,
 		"stacker_count": 4
 	},
-	"animation": "34",
+	"animation": "arendeth_arcane_ballistics_electric_snare_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 0
@@ -35,7 +35,7 @@
 		"utility": 0
 	},
 	"duration": 0.0,
-	"image": 9,
+	"image": 19,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

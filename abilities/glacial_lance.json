@@ -1,0 +1,34 @@
+{
+	"animation": "arendeth_arcane_ballistics_shatterfrost_lance_fx",
+	"cast_time": 0.5,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"description": "Fire a lance of ice that pierces up to 3 targets for ::damage ::damage_type damage, frostbites them and places 2 Frost Charges. Scales with weapon damage and Magic Power. Granted by the Rime Inductor Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			13,
+			20
+		],
+		"damage_type": "frost",
+		"damage_weapon": 0.65,
+		"magic_power_damage": 0.85,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"pierce": 3,
+		"frostbite": 3,
+		"stacker_count": 2
+	},
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_frost_charge"
+	},
+	"id": "arendeth_arcane_ballistics_glacial_lance",
+	"image": 24,
+	"name": "Glacial Lance",
+	"range": 11,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health"
+}

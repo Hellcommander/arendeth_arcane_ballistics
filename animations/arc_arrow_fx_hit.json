@@ -1,0 +1,250 @@
+{
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 1,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_arcane_ballistics_arc_arrow_fx_hit",
+	"ignore_roof": true,
+	"name": "Arc Arrow FX Hit",
+	"sound": {
+		"id": "15",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 50.0,
+			"pulse_background": 60.0,
+			"tile_id": 65
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 50.0,
+			"pulse_background": 60.0,
+			"tile_id": 66
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 100.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1297
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 200.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1298
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 300.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1299
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 400.0,
+			"explosion_range": 1,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1300
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 500.0,
+			"explosion_range": 1,
+			"flags": 64,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1301
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"explosion_range": 2,
+			"flags": 74,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"tile_id": 1300,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 2,
+			"flags": 74,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 10.0,
+			"tile_id": 1301,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					200
+				]
+			],
+			"delay": 100.0,
+			"explosion_range": 2,
+			"flags": 66,
+			"life": 400.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 20.0,
+			"tile_id": 1302,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 550.0,
+			"explosion_range": 1,
+			"flags": 72,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1302
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 650.0,
+			"explosion_range": 1,
+			"flags": 2120,
+			"life": 150.0,
+			"pulse_background": 60.0,
+			"tile_id": 1343
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					147
+				]
+			],
+			"delay": 200.0,
+			"explosion_range": 2,
+			"flags": 66,
+			"life": 300.0,
+			"pulse_background": 60.0,
+			"repeat": 1,
+			"repeat_delay": 10.0,
+			"tile_id": 1343,
+			"velocity": 50.0
+		},
+		{
+			"color": [
+				[
+					130,
+					185,
+					255,
+					255
+				]
+			],
+			"delay": 450.0,
+			"explosion_range": 2,
+			"flags": 2056,
+			"life": 100.0,
+			"pulse_background": 60.0,
+			"tile_id": 1299
+		}
+	]
+}

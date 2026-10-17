@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_arc_beam",
+	"name": "Arc Beam",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_arc_beam"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

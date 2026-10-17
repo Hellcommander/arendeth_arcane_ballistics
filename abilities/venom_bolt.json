@@ -1,0 +1,29 @@
+{
+	"animation": "arendeth_arcane_ballistics_tesla_mortar_shell_fx",
+	"cast_time": 0.5,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 10
+	},
+	"description": "Fire a hollow-tipped bolt that deals ::damage ::damage_type damage and poisons the target. Scales with weapon damage and Magic Power. Granted by the Toxic Injector Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			12,
+			18
+		],
+		"damage_type": "poison",
+		"damage_weapon": 0.6,
+		"magic_power_damage": 0.75,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"poison_effect": 5
+	},
+	"id": "arendeth_arcane_ballistics_venom_bolt",
+	"image": 26,
+	"name": "Venom Bolt",
+	"range": 11,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health"
+}

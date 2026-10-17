@@ -1,0 +1,99 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 2,
+				"id": 1
+			},
+			{
+				"amount": 2,
+				"id": 8
+			},
+			{
+				"amount": 2,
+				"id": 12
+			},
+			{
+				"amount": 3,
+				"id": 7
+			},
+			{
+				"amount": 1,
+				"id": 4
+			}
+		],
+		"time": 600,
+		"tools": [
+			14
+		]
+	},
+	"description": "A silver bow with an astral lens at the grip, built for reach. It carries Lensed Volley: a focused burst of holy light that leaves everything it strikes exposed.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 23
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_arcane_ballistics_Astral_Lens_Bow",
+	"item": {
+		"image": 5,
+		"type": 13
+	},
+	"minimap_pixel": [
+		255,
+		235,
+		160
+	],
+	"name": "Astral Lens Bow",
+	"usable": {
+		"ability": "arendeth_arcane_ballistics_lensed_volley",
+		"recipe": ""
+	},
+	"value": 18000,
+	"weapon": {
+		"attack_animation": "5",
+		"attack_speed": 1.0,
+		"critical_hit": 0.08,
+		"damage": [
+			{
+				"dmg_max": 17,
+				"dmg_min": 11,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 10,
+				"dmg_min": 6,
+				"dmg_type": "holy"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 8,
+		"parry_bonus": 0,
+		"range": 13,
+		"type": 5
+	},
+	"weight": 2.8
+}

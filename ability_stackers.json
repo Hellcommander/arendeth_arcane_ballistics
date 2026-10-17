@@ -11,7 +11,6 @@
 		],
 		"max_stacks": 8,
 		"apply_caster": true,
-		"restrict_weapon_type": "bow",
 		"duration": 30,
 		"description": "Each deployed turret feeds you power. +1 Magic Power per stack, up to 8. Lasts 30 turns if not refreshed."
 	},
@@ -31,7 +30,6 @@
 		],
 		"max_stacks": 5,
 		"apply_caster": true,
-		"restrict_weapon_type": "bow",
 		"duration": 8,
 		"description": "Over-driven firing rhythm. You attack quicker by 0.02 turn and deal +2% damage per stack, up to 5. Lasts 8 turns."
 	},
@@ -55,5 +53,103 @@
 		"apply_caster": false,
 		"duration": 5,
 		"description": "Residual charge slows movement by 0.025 turn and reduces willpower by 1 per stack, up to 10. At max stacks it triggers Overload (electrical damage and stun in a small area). Lasts 5 turns if not refreshed."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_infusion_arcane",
+		"name": "Ballistic Infusion: Arcane",
+		"image": 3,
+		"effects": [],
+		"max_stacks": 1,
+		"duration": 30,
+		"apply_caster": true,
+		"description": "Your bow is enchanted with arcane energy: your electricity hits put a Arcane Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_arcane_charge",
+		"name": "Arcane Charge",
+		"image": 4,
+		"effects": [],
+		"max_stacks": 3,
+		"duration": 2,
+		"apply_caster": false,
+		"on_max_stacks_cast": "arendeth_arcane_ballistics_arc_spark_release",
+		"max_stacks_cast_unlock": false,
+		"description": "Charge from arcane hits. It fades after 2 turns. At 3 stacks it releases Arc Spark."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_infusion_frost",
+		"name": "Ballistic Infusion: Frost",
+		"image": 5,
+		"effects": [],
+		"max_stacks": 1,
+		"duration": 30,
+		"apply_caster": true,
+		"description": "Your bow is enchanted with frost energy: your frost hits put a Frost Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_frost_charge",
+		"name": "Frost Charge",
+		"image": 6,
+		"effects": [
+			{
+				"effect": "movement_speed",
+				"value": 0.05
+			}
+		],
+		"max_stacks": 3,
+		"duration": 2,
+		"apply_caster": false,
+		"on_max_stacks_cast": "arendeth_arcane_ballistics_shatterfrost_needle_release",
+		"max_stacks_cast_unlock": false,
+		"description": "Charge from frost hits. It fades after 2 turns. At 3 stacks it releases Shatterfrost Needle and slows the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_infusion_astral",
+		"name": "Ballistic Infusion: Astral",
+		"image": 7,
+		"effects": [],
+		"max_stacks": 1,
+		"duration": 30,
+		"apply_caster": true,
+		"description": "Your bow is enchanted with astral energy: your holy hits put a Astral Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_astral_charge",
+		"name": "Astral Charge",
+		"image": 8,
+		"effects": [],
+		"max_stacks": 3,
+		"duration": 2,
+		"apply_caster": false,
+		"on_max_stacks_cast": "arendeth_arcane_ballistics_astral_wisp_release",
+		"max_stacks_cast_unlock": false,
+		"description": "Charge from astral hits. It fades after 2 turns. At 3 stacks it releases Astral Wisp."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_infusion_void",
+		"name": "Ballistic Infusion: Void",
+		"image": 9,
+		"effects": [],
+		"max_stacks": 1,
+		"duration": 30,
+		"apply_caster": true,
+		"description": "Your bow is enchanted with void energy: your death hits put a Void Charge on the target."
+	},
+	{
+		"id": "arendeth_arcane_ballistics_void_charge",
+		"name": "Void Charge",
+		"image": 10,
+		"effects": [
+			{
+				"effect": "willpower",
+				"value": -1
+			}
+		],
+		"max_stacks": 3,
+		"duration": 2,
+		"apply_caster": false,
+		"on_max_stacks_cast": "arendeth_arcane_ballistics_void_pulse_release",
+		"max_stacks_cast_unlock": false,
+		"description": "Charge from void hits. It fades after 2 turns. At 3 stacks it releases Void Pulse and saps the target's willpower."
 	}
 ]

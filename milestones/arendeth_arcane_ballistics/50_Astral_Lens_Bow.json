@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_arcane_ballistics_Astral_Lens_Bow",
+	"name": "Astral Lens Bow",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_arcane_ballistics_Astral_Lens_Bow"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

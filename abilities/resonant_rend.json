@@ -1,0 +1,34 @@
+{
+	"animation": "arendeth_arcane_ballistics_void_piercer_fx",
+	"cast_time": 0.5,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 12
+	},
+	"description": "Fire a shot that rings through up to 2 targets for ::damage ::damage_type damage, frightens them and places 3 Void Charges (an instant Void Pulse). Scales with weapon damage and Magic Power. Granted by the Void Resonator Bow.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			14,
+			22
+		],
+		"damage_type": "death",
+		"damage_weapon": 0.7,
+		"magic_power_damage": 0.9,
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.1,
+		"pierce": 2,
+		"fear": 1,
+		"stacker_count": 3
+	},
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_void_charge"
+	},
+	"id": "arendeth_arcane_ballistics_resonant_rend",
+	"image": 40,
+	"name": "Resonant Rend",
+	"range": 11,
+	"skill": "arendeth_arcane_ballistics",
+	"target": "health"
+}

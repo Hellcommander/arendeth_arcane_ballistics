@@ -1,0 +1,203 @@
+{
+	"ability_user": [
+		"arendeth_arcane_ballistics_arcane_mine"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"5",
+			"9",
+			"4"
+		],
+		"allow_production": [],
+		"behaviors": [
+			16,
+			9
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "322",
+	"description": "Elven specialists trained in arcane mechanics and battlefield engineering. They deploy magical traps, construct arcane devices, and manipulate volatile energies with precision and finesse. This one is a Human.",
+	"dialogues": [
+		"76",
+		"77"
+	],
+	"equipment": {
+		"amulet": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Magical_Amulet",
+				"name": "Magic Amulet",
+				"stack": 1
+			}
+		],
+		"backpack": [
+			{
+				"chance": 0.0,
+				"id": "151",
+				"name": "Hammer",
+				"stack": 1
+			},
+			{
+				"chance": 1.0,
+				"id": "194",
+				"name": "Arrow",
+				"stack": 40
+			}
+		],
+		"legs_armor": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Cuisse_Armor",
+				"name": "Cuisse Armor",
+				"stack": 1
+			}
+		],
+		"legs_cloth": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Cargo_Pants",
+				"name": "Cargo Pants",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow",
+				"name": "Arcane Engineer's Bow",
+				"stack": 1
+			}
+		],
+		"torso_cloth": [
+			{
+				"chance": 0.30000001192092896,
+				"id": "2314",
+				"name": "Shaman's Garb",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 5,
+		"level": 1
+	},
+	"fighter": {
+		"attackNames": null
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 13
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 95,
+	"humanoid": {
+		"race": "2"
+	},
+	"id": "arendeth_arcane_ballistics_Elf_Arcane_Engineer_Human",
+	"minimap_pixel": [
+		95,
+		105,
+		15
+	],
+	"moveable": {
+		"speed": 1.100000023841858
+	},
+	"name": "Human Elf Arcane Engineer",
+	"persona": {
+		"occupation": "Arcane_Engineer"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 12,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_bear_trap",
+			"core_2_fireball_trap",
+			"core_2_gas_trap",
+			"arendeth_arcane_ballistics_summon_arcane_battery_turret",
+			"arendeth_arcane_ballistics_summon_spore_mortar",
+			"arendeth_arcane_ballistics_arcane_battery",
+			"arendeth_arcane_ballistics_glyph_snare_trap",
+			"arendeth_arcane_ballistics_astral_flame_trap",
+			"arendeth_arcane_ballistics_arcane_volley",
+			"arendeth_arcane_ballistics_mag_charged_shot",
+			"arendeth_arcane_ballistics_arcane_singularity_trap",
+			"arendeth_arcane_ballistics_summon_astral_cannon",
+			"arendeth_arcane_ballistics_void_shot",
+			"core_2_bolt_thrower",
+			"arendeth_arcane_ballistics_Arcane_Engineers_Bow",
+			"arendeth_arcane_ballistics_ballistic_infusion_arcane",
+			"arendeth_arcane_ballistics_arc_beam"
+		],
+		"skills": [
+			"core_2_construction",
+			"arendeth_arcane_ballistics"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			14,
+			18
+		],
+		"endurance": [
+			10,
+			14
+		],
+		"intelligence": [
+			10,
+			14
+		],
+		"strength": [
+			10,
+			14
+		],
+		"willpower": [
+			13,
+			17
+		]
+	},
+	"tags": [
+		"1",
+		"9"
+	]
+}

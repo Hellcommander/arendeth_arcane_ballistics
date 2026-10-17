@@ -12,18 +12,17 @@
 	},
 	"effects": {
 		"damage": [
-			6,
-			10
+			5,
+			8
 		],
 		"damage_type": "electricity",
-		"damage_weapon": 0.8,
-		"construct_item_cost": 0.8999999761581421,
-		"magic_power_damage": 1.0,
+		"damage_weapon": 0.61,
+		"magic_power_damage": 0.76,
 		"stacker_count": 3,
 		"ability_can_crit": 1,
 		"critical_hit_chance": 0.1
 	},
-	"animation": "arendeth_arcane_ballistics_Arc_Arrow_shoot",
+	"animation": "arendeth_arcane_ballistics_arc_arrow_fx",
 	"cost": {
 		"ammo": 1,
 		"health": 0,
@@ -37,7 +36,7 @@
 		"utility": 1
 	},
 	"duration": 0.0,
-	"image": 4,
+	"image": 9,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

@@ -1,0 +1,31 @@
+{
+	"animation": "arendeth_arcane_ballistics_ballistic_infusion_astral_fx",
+	"cast_time": 0.3,
+	"cooldown": 4.0,
+	"cost": {
+		"health": 0,
+		"stamina": 3
+	},
+	"description": "Enchant your bow with astral energy for ::duration turns: +::damage_bonus ::damage_type damage, and every holy hit puts a Astral Charge on the target; at 3 stacks it releases Astral Wisp. Needs the matching Charge passive.",
+	"duration": 30.0,
+	"effects": {
+		"stacker_count": 1,
+		"damage_bonus": 3,
+		"damage_type": "holy"
+	},
+	"id": "arendeth_arcane_ballistics_ballistic_infusion_astral",
+	"image": 16,
+	"name": "Ballistic Infusion: Astral",
+	"range": 0,
+	"skill": "arendeth_arcane_ballistics",
+	"effects_keys": {
+		"stacker": "arendeth_arcane_ballistics_infusion_astral"
+	},
+	"requirements": {
+		"one_of": [
+			11,
+			12
+		]
+	},
+	"target": "self"
+}

@@ -42,19 +42,19 @@
 		"frames": [
 			{
 				"color": [
-					119,
-					183,
-					181
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 421
+				"index": 2
 			}
 		],
 		"random_frame_start": false
 	},
 	"id": "arendeth_arcane_ballistics_Arcane_Engineers_Bow",
 	"item": {
-		"image": 1142,
+		"image": 1,
 		"type": 13
 	},
 	"minimap_pixel": [

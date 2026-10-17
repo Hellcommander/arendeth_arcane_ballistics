@@ -1,0 +1,159 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_arcane_ballistics_void_piercer_fx",
+	"ignore_roof": true,
+	"name": "Void Piercer FX",
+	"sound": {
+		"id": "151",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 65
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 60.0,
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 66
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 120.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 67
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 220.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 68
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 320.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 69
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 420.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 68
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 520.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 67
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 620.0,
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 66
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 680.0,
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 65
+		},
+		{
+			"color": [
+				[
+					150,
+					80,
+					200,
+					255
+				]
+			],
+			"delay": 740.0,
+			"flags": 128,
+			"life": 100.0,
+			"on_impact": "arendeth_arcane_ballistics_void_piercer_fx_hit",
+			"tile_id": 67,
+			"velocity": 40.0
+		}
+	]
+}

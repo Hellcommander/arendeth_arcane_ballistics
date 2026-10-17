@@ -1,0 +1,99 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"usable",
+		"value",
+		"weapon",
+		"weight"
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 5,
+		"resource_types": [
+			{
+				"amount": 2,
+				"id": 1
+			},
+			{
+				"amount": 2,
+				"id": 8
+			},
+			{
+				"amount": 2,
+				"id": 12
+			},
+			{
+				"amount": 2,
+				"id": 7
+			},
+			{
+				"amount": 1,
+				"id": 4
+			}
+		],
+		"time": 500,
+		"tools": [
+			14
+		]
+	},
+	"description": "A bow with an acid-etched frame and a cartridge feed for corroding arrowheads. It carries the Corrosive Slug: a heavy shot that eats through the target's armor.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 27
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_arcane_ballistics_Corrosive_Rounds_Bow",
+	"item": {
+		"image": 9,
+		"type": 13
+	},
+	"minimap_pixel": [
+		200,
+		230,
+		70
+	],
+	"name": "Corrosive Rounds Bow",
+	"usable": {
+		"ability": "arendeth_arcane_ballistics_corrosive_slug",
+		"recipe": ""
+	},
+	"value": 12000,
+	"weapon": {
+		"attack_animation": "5",
+		"attack_speed": 1.0,
+		"critical_hit": 0.06,
+		"damage": [
+			{
+				"dmg_max": 14,
+				"dmg_min": 9,
+				"dmg_type": "physical"
+			},
+			{
+				"dmg_max": 7,
+				"dmg_min": 4,
+				"dmg_type": "acid"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 6,
+		"parry_bonus": 0,
+		"range": 11,
+		"type": 5
+	},
+	"weight": 2.8
+}

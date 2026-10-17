@@ -1,0 +1,110 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_arcane_ballistics_ballistic_infusion_void_fx",
+	"ignore_roof": false,
+	"name": "Ballistic Infusion: Void FX",
+	"sound": {
+		"id": "151",
+		"volume": 100
+	},
+	"particles": [
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 743
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 745
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 746
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 1343
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 1344
+		},
+		{
+			"color": [
+				[
+					160,
+					110,
+					230,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 300.0,
+			"tile_id": 1345
+		}
+	]
+}

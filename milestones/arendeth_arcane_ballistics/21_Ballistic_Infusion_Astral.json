@@ -1,0 +1,19 @@
+{
+	"id": "arendeth_arcane_ballistics_ballistic_infusion_astral",
+	"name": "Ballistic Infusion: Astral",
+	"requirements": {
+		"milestones": [],
+		"skill": 21
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_arcane_ballistics_ballistic_infusion_astral"
+		},
+		{
+			"passive": "arendeth_arcane_ballistics_charge_astral"
+		}
+	],
+	"skill_id": "arendeth_arcane_ballistics",
+	"steps": [],
+	"steps_type": 0
+}

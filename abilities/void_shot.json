@@ -12,18 +12,18 @@
 	},
 	"effects": {
 		"damage": [
-			7,
-			11
+			6,
+			9
 		],
 		"damage_type": "electricity",
-		"damage_weapon": 0.8,
-		"magic_power_damage": 1.1,
+		"damage_weapon": 0.66,
+		"magic_power_damage": 0.91,
 		"vulnerable": 1,
 		"stacker_count": 4,
 		"ability_can_crit": 1,
 		"critical_hit_chance": 0.1
 	},
-	"animation": "core_2_Spectral_Chain",
+	"animation": "arendeth_arcane_ballistics_static_shot_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 6
@@ -36,7 +36,7 @@
 		"utility": 1
 	},
 	"duration": 0.0,
-	"image": 6,
+	"image": 41,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}

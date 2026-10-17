@@ -12,12 +12,12 @@
 	},
 	"effects": {
 		"damage": [
-			18,
-			26
+			13,
+			19
 		],
 		"damage_type": "electricity",
-		"damage_weapon": 0.6,
-		"magic_power_damage": 1.0,
+		"damage_weapon": 0.45,
+		"magic_power_damage": 0.75,
 		"aoe_range": 3,
 		"aoe_shape": 1,
 		"stun": 1,
@@ -28,7 +28,7 @@
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	},
-	"animation": "core_2_Blizzard_single_impact",
+	"animation": "arendeth_arcane_ballistics_mag_charged_shot_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 9
@@ -41,5 +41,5 @@
 		"utility": 1
 	},
 	"duration": 0.0,
-	"image": 12
+	"image": 21
 }

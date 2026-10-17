@@ -21,7 +21,7 @@
 		"aoe_shape": 1,
 		"stacker_count": 6
 	},
-	"animation": "34",
+	"animation": "arendeth_arcane_ballistics_arc_flare_burst_fx",
 	"cost": {
 		"health": 0,
 		"stamina": 0
@@ -34,7 +34,7 @@
 		"utility": 0
 	},
 	"duration": 0.0,
-	"image": 9,
+	"image": 11,
 	"effects_keys": {
 		"stacker": "arendeth_arcane_ballistics_shock"
 	}
