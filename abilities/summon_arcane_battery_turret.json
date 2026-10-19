@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_summon_arcane_battery_turret",
 	"name": "Summon Electric Battery Turret",
-	"description": "Deploy a generator turret that periodically taunts, pulls and shocks enemies. Grants Turret Power.",
+	"description": "Deploy a generator turret that periodically taunts, pulls and shocks enemies for ::duration turns. Grants Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {

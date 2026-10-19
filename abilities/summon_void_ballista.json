@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_summon_void_ballista",
 	"name": "Summon Rail Ballista",
-	"description": "Deploy a stationary ballista firing piercing electric bolts. Grants Turret Power.",
+	"description": "Deploy a stationary ballista firing piercing electric bolts for ::duration turns. Grants Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {

@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_twin_turret_deployment",
 	"name": "Twin Coil Deployment",
-	"description": "Deploy two Coil Turrets at once. Grants 2 Turret Power.",
+	"description": "Deploy two Coil Turrets at once for ::duration turns. Grants 2 Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {

@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_summon_arcane_turret",
 	"name": "Summon Coil Turret",
-	"description": "Deploy a stationary arcane turret that fires bolts. Each turret grants Turret Power (+Magic Power).",
+	"description": "Deploy a stationary arcane turret that fires bolts for ::duration turns. Each turret grants Turret Power (+Magic Power).",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {

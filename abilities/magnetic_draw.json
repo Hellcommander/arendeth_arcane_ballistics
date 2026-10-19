@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 10
 	},
-	"description": "Loose a magnetised arrow that drags the target up to 3 tiles toward you and pins it, dealing ::damage ::damage_type damage in a small area. Scales with weapon damage and Magic Power. Granted by the Magnetic Draw Bow.",
+	"description": "Loose a magnetised arrow that drags the target up to 3 tiles toward you and pins it, dealing ::damage ::damage_type damage in a small area for ::duration turns. Scales with weapon damage and Magic Power. Granted by the Magnetic Draw Bow.",
 	"duration": 0.0,
 	"effects": {
 		"damage": [

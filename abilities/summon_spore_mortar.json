@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_summon_spore_mortar",
 	"name": "Summon Tesla Mortar",
-	"description": "Deploy a stationary mortar lobbing electric shells. Grants Turret Power.",
+	"description": "Deploy a stationary mortar lobbing electric shells for ::duration turns. Grants Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {

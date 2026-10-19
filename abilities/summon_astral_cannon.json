@@ -1,7 +1,7 @@
 {
 	"id": "arendeth_arcane_ballistics_summon_astral_cannon",
 	"name": "Summon Storm Cannon",
-	"description": "Ultimate: deploy a heavy storm cannon with devastating electric shells. Grants 2 Turret Power.",
+	"description": "Ultimate: deploy a heavy storm cannon with devastating electric shells for ::duration turns. Grants 2 Turret Power.",
 	"target": "aoe_tile",
 	"range": 6,
 	"requirements": {
