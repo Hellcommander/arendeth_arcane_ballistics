@@ -15,8 +15,6 @@
 		4
 	],
 	"allow_player": true,
-	"min_area": 24,
-	"group": "military",
 	"type": "military",
 	"produces": [
 		{
